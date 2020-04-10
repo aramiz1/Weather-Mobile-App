@@ -1,0 +1,6 @@
+System.Runtime
+WeatherApp
+Newtonsoft.Json
+System.Net.Http.Primitives
+System.Resources.ResourceManager
+System.Reflection.Extensions

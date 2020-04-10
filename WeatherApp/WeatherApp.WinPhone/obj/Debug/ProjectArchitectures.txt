@@ -1,0 +1,2 @@
+C:\Users\RobertQuillian\Documents\Visual Studio 2015\Projects\WeatherApp\WeatherApp\WeatherApp.WinPhone\WeatherApp.WinPhone.csproj;neutral
+C:\Users\RobertQuillian\Documents\Visual Studio 2015\Projects\WeatherApp\WeatherApp\WeatherApp\WeatherApp.csproj;neutral

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/relativeLayout1"
+      android:background="#FFA0522D">
+    <TextView
+        android:text="Search by Zip Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ZipCodeSearchLabel"
+        android:layout_marginStart="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:text="Zip Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ZipCodeSearchLabel"
+        android:id="@+id/ZipCodeLabel"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ZipCodeLabel"
+        android:id="@+id/zipCodeEntry"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:width="165dp"
+        android:textColor="@android:color/white" />
+    <Button
+        android:text="Get Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/zipCodeEntry"
+        android:id="@+id/weatherBtn"
+        android:layout_alignBottom="@id/zipCodeEntry"
+        android:layout_marginStart="20dp"
+        android:width="165dp" />
+  </RelativeLayout>
+  <TextView
+      android:text="Location"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/locationLabel"
+      android:layout_marginStart="10dp"
+      android:background="#FF00FFFF"
+      android:textColor="@android:color/black"
+      android:layout_marginTop="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/locationText"
+      android:layout_marginStart="20dp"
+      android:layout_marginBottom="10dp" />
+  <TextView
+      android:text="Temperature"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tempLabel"
+      android:background="#FFDC143C"
+      android:textColor="@android:color/white"
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tempText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+  <TextView
+      android:text="Wind Speed"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/windLabel"
+      android:background="#FFF8F8FF"
+      android:textColor="@android:color/holo_purple"
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/windText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+  <TextView
+      android:text="Humidity"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/humidtyLabel"
+      android:background="#FFFFD700"
+      android:textColor="@android:color/holo_green_dark"
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/humidityText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+  <TextView
+      android:text="Visibility"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/visibilityLabel"
+      android:background="#FFFFB6C1"
+      android:textColor="@android:color/holo_red_dark"       
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/visibilityText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+  <TextView
+      android:text="Time of Sunrise"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/sunriseLabel"
+      android:background="#FFF5FFFA"
+      android:textColor="@android:color/holo_orange_dark"  
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/sunriseText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+  <TextView
+      android:text="Time of Sunset"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/sunsetLabel"
+      android:background="#FFA52A2A"
+      android:textColor="@android:color/darker_gray"  
+      android:layout_marginStart="10dp" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/sunsetText"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp" />
+</LinearLayout>
